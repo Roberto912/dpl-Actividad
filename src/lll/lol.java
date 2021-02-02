@@ -47,7 +47,7 @@ do {
 		asinaturasHoras.add("3");
 		
 		do {
-			
+			//
 			int  asinatura= (int)(Math.random() * (asinaturas.size()));
 			int  horas;
 			if(Integer.parseInt(asinaturasHoras.get(asinatura))>6) {
@@ -68,7 +68,7 @@ do {
 				asinaturas.remove(asinatura);
 			}
 		}while(calendario.size()<30);
-
+//Los espacios es para que quede mejor la tabla
 		System.out.print("Lunes  ");
 		System.out.print("Martes  ");
 		System.out.print("Miercoles  ");
@@ -134,6 +134,7 @@ do {
 				}
 			}while(calendario.size()<30);
 
+			//Los espacios es para que quede mejor la tabla
 			System.out.print("Lunes       ");
 			System.out.print("Martes      ");
 			System.out.print("Miercoles   ");
