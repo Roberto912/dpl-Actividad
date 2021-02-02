@@ -98,6 +98,7 @@ do {
 	 */
 	public static void profesor(){
 			ArrayList<String> asinaturas = new ArrayList<String>();
+			//se pueden adaptar para otros pero hay que tener encuenta los espacios
 			asinaturas.add("DAW         ");
 			asinaturas.add("DAM         ");
 			asinaturas.add("SMR         ");
@@ -112,7 +113,7 @@ do {
 			asinaturasHoras.add("3");
 			
 			do {
-				
+				//
 				int  asinatura= (int)(Math.random() * (asinaturas.size()));
 				int  horas;
 				if(Integer.parseInt(asinaturasHoras.get(asinatura))>6) {
